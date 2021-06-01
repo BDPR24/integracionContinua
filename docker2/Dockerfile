@@ -1,9 +1,9 @@
 FROM node:14
 WORKDIR /usr/src/app
-COPY ./docker2/backend/package*.json ./
+COPY ./backend/package*.json ./
 RUN npm install
 
-COPY ./docker2/backend .
+COPY ./backend .
 
-EXPOSE 50000
+EXPOSE 4000
 CMD [ "node", "index.js" ]

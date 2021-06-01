@@ -1,9 +1,9 @@
-FROM node:14
+FROM node:12-alpine
 WORKDIR /usr/src/app
-COPY ./docker1/backend/package*.json ./
+COPY ./backend/package*.json ./
 RUN npm install
 
-COPY ./docker1/backend .
+COPY ./backend .
 
-EXPOSE 40000
+EXPOSE 3000
 CMD [ "node", "index.js" ]
