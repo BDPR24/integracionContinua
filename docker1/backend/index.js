@@ -7,7 +7,7 @@ const app = express();
 const axios = require('axios')
 
 app.get('/', (req, res) => {
-  res.send('Hello buddy, im running in the port: ' + PORT);
+  res.send('HOLA MUNDO, Se ejecuta en el puerto: ' + PORT);
 });
 
 app.get('/docker', (req, res)=>{
