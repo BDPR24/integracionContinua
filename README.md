@@ -1,5 +1,5 @@
-# Integracion Continua - Poli
-
+# Integracion Continua - Politecnico 2021 
+ 
 _Siga los pasos a continuacion descritos para ejecutar los contenedores y conectarlos entre si MISMO._
 
 ### pre-requisitos 📋
