@@ -1,6 +1,6 @@
 # Integracion Continua - Poli
 
-_Siga los pasos a continuacion descritos para ejecutar los contenedores y conectarlos entre si._
+_Siga los pasos a continuacion descritos para ejecutar los contenedores y conectarlos entre si MISMO._
 
 ### pre-requisitos 📋
 
